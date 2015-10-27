@@ -1,0 +1,47 @@
+#myModalLabel{
+	color:#F60;
+}
+.cef-span{
+	color:#06F;
+}
+.modal-content{
+	background-color:#BADCFE;
+}
+#loading{ 
+	display:none;
+}
+.welcome-caixa{
+	padding:15px;
+}
+.img-folder-caixa{
+	border: 1px solid #fff;
+}
+.mensagem {
+    text-indent: 4em;
+}
+#alerta{
+	padding:0 25px;
+}
+
+.animate-in .slide-img-clock {
+  left: 63%;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+@media only screen and (max-width: 568px) {
+  .slide-img {
+    left: 50%;
+    width: auto;
+    max-width: 80% !important;
+  }
+  #sequence .animate-in .slide-img, #sequence .animate-in .slide-img-clock {
+    left: 50%;
+    margin-left: -40%;
+  }
+}
